@@ -203,7 +203,7 @@ function(set_ipp_variables _LATEST_VERSION)
         set(IPP_LIBRARIES ${IPP_LIBRARIES} PARENT_SCOPE)
         message(STATUS "IPP libs: ${IPP_LIBRARIES}")
 
-    elseif(${_LATEST_VERSION} VERSION_LESS "9.0")
+    elseif(${_LATEST_VERSION} VERSION_LESS "9999.0")
 #        message(STATUS "new")
 
         # set INCLUDE and LIB folders
